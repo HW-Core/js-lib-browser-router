@@ -1,10 +1,11 @@
 {
-  "name": "hw2/modules/js/src/library/browser/router/tests",
-  "dependencies": {
-    "%parent": "hw2-core/js-library-browser-router"
-  },
-  "keep": [
-    ".git/config"
-  ],
-  "license": "http://www.hyperweb2.com/terms"
+    "name": "hw2/modules/js/src/kernel/tests",
+    "license": "http://www.hyperweb2.com/terms",
+    "dependencies": {
+        "%parent-lib": "hw2-core/js-kernel"
+    },
+    "_comment_keep": "ensure we keep the right git repository configurations",
+    "keep": [
+        ".git/config"
+    ]
 }
