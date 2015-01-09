@@ -1,11 +1,18 @@
 {
-  "name": "hw2/modules/js/src/library/browser/router",
-  "devDependencies": {
-    "%tests": "hw2-core/js-library-browser-router#tests",
-    "%doc": "hw2-core/js-library-browser-router#doc"
+  "name": "hw2/modules/js/src/kernel",
+  "license": "http://www.hyperweb2.com/terms",
+  "dependencies": {
+    "%common": "hw2-core/js-library-browser-common#*",
+    "%event": "hw2-core/js-library-browser-event#*",
+    "%uri": "hw2-core/js-library-browser-uri#*"
   },
+  "devDependencies": {
+    "%tests": "hw2-core/js-library-router#tests",
+    "%doc": "hw2-core/js-library-router#doc"
+  },
+  "_comment_keep": "ensure we keep the right git repository configurations",
   "keep": [
     ".git/config"
   ],
-  "license": "http://www.hyperweb2.com/terms"
+  "version": "0.0.1"
 }
