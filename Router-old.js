@@ -7,7 +7,7 @@ hw2.define([
     "hw2!PATH_JS_LIB:browser/router/include.js",
     "hw2!PATH_JS_LIB:browser/uri/Uri.js",
     "hw2!PATH_JS_LIB:browser/event/EventHandler.js"
-], function Navigation () {
+], function Router () {
     var $ = this;
     return $.class([
         /**
