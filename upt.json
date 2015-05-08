@@ -1,8 +1,8 @@
 {
-  "name": "hw2/modules/js/src/kernel/doc",
+  "name": "hw2/modules/js/src/library/browser/router/doc",
   "license": "http://www.hyperweb2.com/terms",
   "dependencies": {
-    "%parent-lib": "hw2-core/js-kernel"
+    "%parent-lib": "hw2-core/js-library-browser-router"
   },
   "_comment_keep": "ensure we keep the right git repository configurations",
   "keep": [
