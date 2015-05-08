@@ -1,5 +1,5 @@
 {
-  "name": "hw2/modules/js/src/kernel",
+  "name": "hw2/modules/js/src/library/browser/router",
   "license": "http://www.hyperweb2.com/terms",
   "dependencies": {
     "%common": "hw2-core/js-library-browser-common#*",
@@ -7,8 +7,8 @@
     "%uri": "hw2-core/js-library-browser-uri#*"
   },
   "devDependencies": {
-    "%tests": "hw2-core/js-library-router#tests",
-    "%doc": "hw2-core/js-library-router#doc"
+    "%tests": "hw2-core/js-library-browser-router#tests",
+    "%doc": "hw2-core/js-library-browser-router#gh-pages"
   },
   "_comment_keep": "ensure we keep the right git repository configurations",
   "keep": [
