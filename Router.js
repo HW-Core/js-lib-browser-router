@@ -162,7 +162,7 @@ hw2.define([
             navigateByUrl: function (uri, reload) {
                 var that = this;
                 // if not reload, then typecompare will throw an error if it's not a RouteInfo obj.
-                var isRoute = $.typeCompare(this.s.RouteInfo, uri, !reload);
+                var isRoute = $.typeCompare(this.s.RouteInfo, uri, reload);
 
                 if (reload) {
                     window.location.assign(isRoute ? uri.getUri().toString() : uri);
