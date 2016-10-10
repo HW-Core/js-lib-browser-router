@@ -1,9 +1,9 @@
 'use strict';
 
 hwc.define([
-    "hwc!{PATH_JS_LIB}browser/router/include.js",
-    "hwc!{PATH_JS_LIB}browser/uri/Uri.js",
-    "hwc!{PATH_JS_LIB}browser/event/EventHandler.js"
+    "hwc!{PATH_JS_LIB}browser-router/include.js",
+    "hwc!{PATH_JS_LIB}browser-uri/Uri.js",
+    "hwc!{PATH_JS_LIB}browser-event/EventHandler.js"
 ], function Router () {
     var $ = this;
 
@@ -64,6 +64,12 @@ hwc.define([
                     addParam: function (name, value) {
                         this._i.route.addSearch(name, value);
                     },
+                    /**
+                     * 
+                     * @param {type} name
+                     * @param {type} value (optional)
+                     * @returns {undefined}
+                     */
                     removeParam: function (name, value) {
                         this._i.route.removeSearch(name, value);
                     },
